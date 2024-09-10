@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    /* hjälper padding */
+}
+
+html, body {
+    height: 100%;
+    /* full höjd på sidan */
+}
+
+body {
+    margin: 0;
+    /* tar bort kanter på sidan  */
+    /* background-color: rgb(242, 240, 244); */
+    background-image: url(https://i.ytimg.com/vi/-Qi9nUfUTEA/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    background-color: rgba(23,23,23,.8);
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 12px;
+}
+
+.nav__menu {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    list-style: none;
+    /* background-color: red; */
+    margin: 0;
+    padding: 0;
+}
+
+/* h1 {
+    color: rgb(202, 19, 55);
+    background-color: rgb(205, 255, 4);
+    margin: 0;
+    padding: 26px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    transition: ease-in-out 1s;
+} */
+
+
+/* h1:hover {
+    color: aliceblue;
+} */
+/* h2 {
+    background-image: url("gif3.gif");
+    background-size: cover;
+    background-clip: text;
+    -webkit-text-fill-color: 
+    transparent;
+
+} */

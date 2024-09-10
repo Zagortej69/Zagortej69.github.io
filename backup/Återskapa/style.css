@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    font-size: 90px;
+}
+    
+    body{
+        background-color: black;
+    }
+    
+    body {
+        color:aliceblue;
+        font-family: sans-serif;
+    }
+
+
+
+  p {
+    margin-top:0;
+    /* margin-bottom:0; */
+    text-align:left;
+   
+  }
+
+  .flex{ display:flex;
+  
+    width:49%;
+    margin:0 auto;
+    margin-top: 100px;
+    gap:7px
+  }
