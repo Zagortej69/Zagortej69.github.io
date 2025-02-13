@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>>>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <button>Yellow</button>
+   
+   <script>
+        var myVar = document.querySelector('body');
+        var knapp = document.querySelector('button');
+       
+        myVar.style.backgroundColor = "red";
+
+        knapp.addEventListener('click', () => {
+          
+           if( myVar.style.backgroundColor == 'yellow') {
+
+            myVar.style.backgroundColor = 'red' 
+
+            } else {
+                myVar.style.backgroundColor = 'yellow';
+            }
+        })
+   </script>
+</body>
+</html>
